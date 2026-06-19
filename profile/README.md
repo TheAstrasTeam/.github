@@ -6,6 +6,6 @@
 
 Astra Team is a group of developers who are working on AstraEditor.
 
-We want to create a *NEWer* <font size="6px">BETTER</font> <img src="./faster.svg" alt="FASTER" style="height:21px" align="center"> <sup>USEFULer</sup> and <font color="#09f">more INTESTING</font> Scratch.
+We want to create a *NEWer* <font size="6px">BETTER</font> <img src="./faster.svg" alt="FASTER" style="height:21px" align="center"> <sup>USEFULer</sup> and **more INTESTING** Scratch.
 
 You know that Scratch is a  **PERFECT** toy for programmer.
