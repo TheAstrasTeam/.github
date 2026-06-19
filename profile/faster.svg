@@ -1,0 +1,20 @@
+<svg width="500" height="80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- 虚影滤镜 -->
+    <filter id="blur-shadow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2"/>
+    </filter>
+  </defs>
+
+  <!-- 虚影层 - 从左到右，逐渐清晰 -->
+  <text x="40" y="55" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#333" opacity="0.15" filter="url(#blur-shadow)">FASTER</text>
+
+  <text x="55" y="55" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#555" opacity="0.25">FASTER</text>
+
+  <text x="70" y="55" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#666" opacity="0.35">FASTER</text>
+
+  <text x="85" y="55" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#888" opacity="0.5">FASTER</text>
+
+  <!-- 主文本 -->
+  <text x="100" y="55" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#000">FASTER</text>
+</svg>
