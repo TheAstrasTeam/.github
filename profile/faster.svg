@@ -1,20 +1,23 @@
-<svg width="500" height="80" xmlns="http://www.w3.org/2000/svg">
+<svg width="250" height="60" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- 虚影滤镜 -->
-    <filter id="blur-shadow">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="2"/>
+    <!-- 发光滤镜 -->
+    <filter id="glow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3"/>
     </filter>
   </defs>
 
-  <!-- 虚影层 - 从左到右，逐渐清晰 -->
-  <text x="40" y="55" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#333" opacity="0.15" filter="url(#blur-shadow)">FASTER</text>
+  <!-- 闪电形状 - 在虚影上方 -->
+  <polygon points="30,5 45,25 35,25 50,55 30,30 40,30 25,5" fill="#FFD700" opacity="0.6" filter="url(#glow)"/>
 
-  <text x="55" y="55" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#555" opacity="0.25">FASTER</text>
+  <!-- 虚影层 - 从左到右，从黄色渐变到白色 -->
+  <text x="0" y="45" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#FFD700" opacity="0.2" filter="url(#glow)">FASTER</text>
 
-  <text x="70" y="55" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#666" opacity="0.35">FASTER</text>
+  <text x="15" y="45" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#FFEB3B" opacity="0.3">FASTER</text>
 
-  <text x="85" y="55" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#888" opacity="0.5">FASTER</text>
+  <text x="30" y="45" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#FFF9C4" opacity="0.45">FASTER</text>
 
-  <!-- 主文本 -->
-  <text x="100" y="55" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#000">FASTER</text>
+  <text x="45" y="45" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#FFFDE7" opacity="0.6">FASTER</text>
+
+  <!-- 主文本 - 白色 -->
+  <text x="60" y="45" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#FFF">FASTER</text>
 </svg>
